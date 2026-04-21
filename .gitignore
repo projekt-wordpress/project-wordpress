@@ -1,0 +1,5 @@
+.DS_Store
+*.log
+wp_files/
+wordpress/
+db_data/
