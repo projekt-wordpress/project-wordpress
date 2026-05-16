@@ -1,0 +1,33 @@
+:root {
+    --br-primary-green: #2AA86F;
+	--br-green-background: rgba(42, 168, 111, 0.1);
+}
+
+.wp-block-create-block-display-guardian-token {
+	background-color: #21759b;
+	color: #fff;
+	padding: 2px;
+}
+
+.br-token-display-box {
+    background-color: var(--br-green-background);
+    border: 1px solid var(--br-primary-green);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+
+    .br-token-label {
+        color: var(--br-text-dark);
+        font-size: 1.1em;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .br-token-value {
+        font-size: 1.5em;
+        color: var(--br-primary-green);
+        letter-spacing: 2px;
+        display: block;
+    }
+}

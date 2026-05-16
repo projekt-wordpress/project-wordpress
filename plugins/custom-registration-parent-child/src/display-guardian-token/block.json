@@ -1,0 +1,13 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "custom-registration-parent-child/display-guardian-token",
+    "title": "Wyświetl Token Rodzica",
+    "category": "widgets",
+    "icon": "admin-network",
+    "description": "Wyświetla unikalny kod rodzica dla zalogowanego użytkownika z rolą Rodzic.",
+    "editorScript": "file:./index.js",
+	"viewScript": "file:./view.js",
+    "render": "file:./render.php",
+	"style": "file:./style-index.css"
+}
