@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name:       Rejestracja Rodzic-Dziecko (React Version)
- * Description:       Zaawansowany system rejestracji oparty o bloki Gutenberga i React.js.
- * Version:           2.0.0
+ * Plugin Name:       Rejestracja Rodzic-Dziecko
+ * Description:       System rejestracji dla rodziców i dzieci, umożliwiający tworzenie kont dla dzieci powiązanych z kontami rodziców.
+ * Version:           1.0.0
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            Bartłomiej Handziak, Kamil Janik
