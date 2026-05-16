@@ -1,0 +1,193 @@
+form[name="learn-press-login"] {
+    ul.form-fields {
+        list-style: none !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    li {
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        list-style-type: none !important;
+    }
+}
+
+/* DEFINITIONS OF COLORS */
+:root {
+    --br-primary-blue: #3858E9;
+    --br-primary-green: #2AA86F;
+    --br-text-dark: #1a1a1a;
+    --br-text-gray: #6b7280;
+    --br-border-color: #d1d5db;
+    --br-bg-white: #ffffff;
+    --br-shadow: rgba(0, 0, 0, 0.15);
+}
+
+/* Main container */
+.br-registration-container, 
+.learn-press-form-login {
+    max-width: 25rem !important;
+    margin: 2rem auto !important;
+    padding: 2rem !important;
+    background: var(--br-bg-white) !important;
+    border-radius: 1rem !important;
+    box-shadow: 0 0.625rem 1.875rem var(--br-shadow) !important;
+    font-family: sans-serif;
+}
+
+/* Hide default LearnPress title */
+.learn-press-form-login h3 {
+    display: none !important;
+}
+
+.br-form-title {
+    text-align: center;
+    color: var(--br-primary-blue);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.br-form-group, 
+form[name="learn-press-login"] li {
+    margin-bottom: 1.25rem !important;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none !important;
+}
+
+.br-form-group label,
+form[name="learn-press-login"] label {
+    font-weight: 700 !important;
+    font-size: 0.875rem !important; 
+    margin-bottom: 0.5rem !important; 
+    color: var(--br-text-dark) !important;
+}
+
+.br-form-group input,
+form[name="learn-press-login"] input[type="text"],
+form[name="learn-press-login"] input[type="email"],
+form[name="learn-press-login"] input[type="password"] {
+    border-radius: 0.75rem !important;
+    border: 1px solid var(--br-border-color) !important;
+    padding: 0.75rem 0.75rem 0.75rem 2.5rem !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    background-color: var(--br-bg-white) !important;
+    background-repeat: no-repeat !important;
+    background-position: 0.75rem center !important;
+    background-size: 1.125rem !important;
+    font-size: 0.875rem !important;
+    color: var(--br-text-gray) !important;
+}
+
+.br-input-user, form[name="learn-press-login"] input[type="text"] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22%236c757d%22%3E%3Cpath d=%22M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z%22/%3E%3C/svg%3E") !important;
+}
+
+.br-input-email {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22%236c757d%22%3E%3Cpath d=%22M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z%22/%3E%3C/svg%3E") !important;
+}
+
+.br-input-password, form[name="learn-press-login"] input[type="password"] {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22%23a19b5b%22%3E%3Cpath d=%22M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z%22/%3E%3C/svg%3E") !important;
+}
+
+.br-input-token {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22%23d4af37%22%3E%3Cpath d=%22M12.65 10C11.83 7.67 9.61 6 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6c2.61 0 4.83-1.67 5.65-4H17v4h4v-4h2v-4H12.65zM7 14c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z%22/%3E%3C/svg%3E") !important;
+}
+
+
+.br-submit-button,
+form[name="learn-press-login"] button[type="submit"] {
+    background: linear-gradient(90deg, var(--br-primary-blue) 0%, var(--br-primary-green) 100%) !important;
+    border-radius: 1.5625rem !important;
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    border: none !important;
+    padding: 0.875rem 2.5rem !important;
+    width: 100% !important; 
+    box-shadow: 0 0.25rem 0.9375rem var(--br-shadow) !important;
+    cursor: pointer !important;
+    margin-top: 0.625rem !important; 
+    transition: transform 0.2s ease !important;
+
+    &:hover:not(:disabled) {
+        background-color: #005177;
+    }
+
+    &:disabled {
+        background-color: #a7aaad !important;
+        color: #dcdcde !important;
+        cursor: not-allowed !important;
+        opacity: 0.7 !important;
+        box-shadow: none !important;
+    }
+}
+
+.br-submit-button:hover,
+form[name="learn-press-login"] button[type="submit"]:hover {
+    transform: scale(1.02) !important;
+}
+
+.br-login-link,
+form[name="learn-press-login"] a {
+    color: var(--br-primary-blue) !important;
+    font-size: 0.875rem !important;
+    text-decoration: none !important;
+    margin-top: 1rem !important;
+    font-weight: 700 !important;
+    display: block !important;
+    text-align: center !important;
+}
+
+form[name="learn-press-login"] .remember-me,
+form[name="learn-press-login"] .form-fields > li:last-child > a {
+    display: none !important;
+}
+
+// ALERTS STYLES
+.br-alert {
+    position: relative;
+    margin: 24px auto;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: 1.5;
+}
+
+.br-alert-error {
+    background-color: #fee5e5 !important;
+    color: #ff3b30 !important;
+}
+
+.br-alert-success {
+    background-color: #e6fffa !important; 
+    color: #008a3c !important;
+}
+
+.br-alert strong {
+    font-weight: 700;
+}
+
+.br-alert-footer {
+    margin-top: 5px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.br-go-to-login {
+    color: var(--br-primary-green);
+    font-weight: bold;
+    text-decoration: underline;
+    display: inline-block;
+
+    &:hover {
+        filter: brightness(0.9);
+        text-decoration: none;
+    }
+}
